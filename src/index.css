@@ -39,6 +39,7 @@ p {
 
 .project.section-container {
 	align-items: start;
+	margin-bottom: 15rem
 }
 
 .header {
@@ -52,4 +53,20 @@ p {
 .project.header {
 	color: var(--header-color);
 	margin-bottom: 10rem;
+}
+
+.credit {
+	text-align: center;
+	color: var(--header-color);
+	padding: 5vh 15vw;
+}
+
+.credit a {
+	color: var(--header-color);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.credit a:hover {
+	color: rgb(182, 44, 248);
 }
